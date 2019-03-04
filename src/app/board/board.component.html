@@ -1,0 +1,34 @@
+<mat-card class="main-board">
+	<app-timeboard></app-timeboard>
+
+<mat-grid-list class="mat-grid-list" cols="4" >
+  <mat-grid-tile
+      [colspan]="1"
+      [rowspan]="1"
+      [style.background]="lightblue">
+
+  </mat-grid-tile>
+  <mat-grid-tile
+      [colspan]="2"
+      [rowspan]="1"
+      [style.background]="lightgreen">
+      	<app-newtask></app-newtask>
+  </mat-grid-tile>
+  <mat-grid-tile
+      [colspan]="1"
+      [rowspan]="1"
+      [style.background]="lightpink">
+
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+<mat-list role="list">
+  <mat-list-item role="listitem">Item 1</mat-list-item>
+  <mat-list-item role="listitem">Item 2</mat-list-item>
+  <mat-list-item role="listitem">Item 3</mat-list-item>
+</mat-list>
+</mat-card>
+
+
+

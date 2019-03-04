@@ -1,0 +1,29 @@
+.timeboard ul{
+	max-height: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	list-style:  none;
+
+}
+
+.timeboard li{
+	margin:0px;
+	padding:0px;
+	height: 100px;
+	width: 100px;
+
+}
+
+.timeboard button{
+	padding: 0px;
+	width: 100px;
+	height: 40px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #059;
+}

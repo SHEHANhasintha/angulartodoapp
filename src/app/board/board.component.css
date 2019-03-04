@@ -1,0 +1,19 @@
+
+.main-board{
+	width: 500px;
+	height: 500px;
+	background-color: #eee;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.mat-grid-list{
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:-50px;
+}
+
