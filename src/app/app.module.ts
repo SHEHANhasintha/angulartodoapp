@@ -10,14 +10,17 @@ import { CreatedtaskComponent } from './createdtask/createdtask.component';
 import { TimeboardComponent } from './timeboard/timeboard.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import {MatButtonModule, MatCheckboxModule, MatNativeDateModule} from '@angular/material';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatListModule} from '@angular/material/list';
-
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatInputModule} from '@angular/material';
 
 
 @NgModule({
@@ -39,7 +42,12 @@ import {MatListModule} from '@angular/material/list';
     MatCardModule,
     MatIconModule,
     MatGridListModule,
-    MatListModule
+    MatListModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

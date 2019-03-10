@@ -7,7 +7,8 @@
 	margin: auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
-
+	display: flex;
+	flex-direction: column;
 }
 
 .mat-grid-list{
@@ -15,5 +16,7 @@
 	padding:0px;
 	position:relative;
 	top:-50px;
+	right: 5px;
 }
+
 

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { TimeboardComponent } from '../timeboard/timeboard.component';
 import { NewtaskComponent } from '../newtask/newtask.component';
+import { PeriodComponent } from '../period/period.component';
+import { CreatedtaskComponent } from '../createdtask/createdtask.component';
 
 //import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 
